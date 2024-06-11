@@ -1,0 +1,19 @@
+
+.company {
+  width: 30%;
+}
+.desc {
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  .xperience_card {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .company {
+    width: 100% !important;
+  }
+  .desc {
+    width: 100% !important;
+  }
+}
