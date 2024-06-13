@@ -169,9 +169,9 @@
     margin-bottom: 1rem;
   }
   .position h1 {
-    font-size: 3rem;
-    line-height: 2rem;
-    letter-spacing: 1rem;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.3rem;
   }
   .position h1:nth-child(even) {
     margin-top: -3.5rem !important;
