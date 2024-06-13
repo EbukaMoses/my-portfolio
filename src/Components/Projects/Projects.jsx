@@ -28,8 +28,6 @@ const Projects = () => {
                 <h3>{proj.title}</h3>
               </div>
 
-              <span>{proj.lang}</span>
-
               {/* <div className="technologies flex">
                 {project.lang.map((tech, index) => (
                   <span key={index}>{tech}</span>

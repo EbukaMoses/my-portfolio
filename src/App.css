@@ -233,6 +233,8 @@ button,
     font-size: 8px;
     justify-content: center;
     gap: 10px;
+    border-bottom: 0.5px solid var(--border-color);
+
   }
   .nav .navtab {
     padding: 4% 0.5%;
