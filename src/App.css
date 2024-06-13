@@ -301,4 +301,7 @@ button,
   button {
     padding: 4%;
   }
+  .padding {
+    padding: 0 2%;
+  }
 }

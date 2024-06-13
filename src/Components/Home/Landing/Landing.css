@@ -157,6 +157,18 @@
 
 /* MOBILE RESPONSIVENESS  */
 @media screen and (max-width: 768px) {
+  .landing {
+    width: 100%;
+    height: 100vh !important;
+  }
+
+  .overlay {
+    position: absolute;
+    height: fit-content;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+  }
   .landing_content {
     row-gap: 1rem;
   }
@@ -169,12 +181,18 @@
     margin-bottom: 1rem;
   }
   .position h1 {
-    font-size: 2rem;
-    line-height: 1.5rem;
+    font-size: 2.5rem;
+    /* line-height: 1.5rem; */
     letter-spacing: 0.3rem;
   }
   .position h1:nth-child(even) {
     margin-top: -3.5rem !important;
     margin-bottom: 1rem !important;
+  }
+  .landing_content p {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+   
   }
 }
