@@ -59,7 +59,8 @@ const Portfolio = () => {
             {/* <Button title="Hire Me | Download CV" /> */}
             <div className="details flex-col">
               {/* <h6 className="h4">Lagos, Nigeria</h6> */}
-              <h6 className="h4">
+              <h6 className="h4 flex-col">
+                <a href="tel:+2347038689968">07038689968</a>
                 <a href="mailto:Okoyemoses83@gmail.com">
                   Okoyemoses83@gmail.com
                 </a>
