@@ -167,7 +167,7 @@
 
   .overlay {
     position: absolute;
-    height: fit-content;
+    height: 100vh !important;
     width: 100%;
     top: 0 !important;
     bottom: 0 !important;
