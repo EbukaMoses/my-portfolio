@@ -28,6 +28,8 @@ const Projects = () => {
                 <h3>{proj.title}</h3>
               </div>
 
+              <span>{proj.lang}</span>
+
               {/* <div className="technologies flex">
                 {project.lang.map((tech, index) => (
                   <span key={index}>{tech}</span>
@@ -38,12 +40,14 @@ const Projects = () => {
                 <a
                   href={proj.live}
                   className="flex justify-center items-center"
+                  target="_blank"
                 >
                   View &nbsp;
                   <FaEye />
                 </a>
                 <a
                   href={proj.github}
+                  target="_blank"
                   className="flex justify-center items-center"
                 >
                   Github &nbsp;

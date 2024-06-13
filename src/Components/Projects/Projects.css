@@ -83,7 +83,7 @@
   width: 93%;
   height: 155px;
   z-index: 3;
-  border: 1px solid #31b675;
+  border: 1px solid var(--card);
   opacity: 0;
   transition: 0.5s ease-in-out;
 }

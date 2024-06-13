@@ -20,6 +20,12 @@ import {
   Wordpress,
   Core,
   Photoshop,
+  one,
+  two,
+  three,
+  four,
+  five,
+  six,
 } from "../../public/index.js";
 
 export const experience = [
@@ -175,14 +181,42 @@ export const post = [
 
 export const project = [
   {
-    img: Typescript,
+    img: one,
     title: "Hospital Website",
     lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
     live: "#",
     github: "#",
   },
   {
-    img: Js,
+    img: two,
+    title: "Hospital Website",
+    lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
+    live: "#",
+    github: "#",
+  },
+  {
+    img: three,
+    title: "Hospital Website",
+    lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
+    live: "#",
+    github: "#",
+  },
+  {
+    img: four,
+    title: "Hospital Website",
+    lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
+    live: "https://www.hullbridgesolicitors.com",
+    github: "#",
+  },
+  {
+    img: five,
+    title: "Hospital Website",
+    lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
+    live: "#",
+    github: "#",
+  },
+  {
+    img: six,
     title: "Hospital Website",
     lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
     live: "#",
