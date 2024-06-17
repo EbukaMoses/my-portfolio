@@ -26,6 +26,8 @@ import {
   four,
   five,
   six,
+  seven,
+  eight,
 } from "../../public/index.js";
 
 export const experience = [
@@ -182,44 +184,58 @@ export const post = [
 export const project = [
   {
     img: one,
-    title: "Hospital Website",
+    title: "Blessing Creation Website",
     lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
-    live: "#",
+    live: "https://bcreationltd.com/",
     github: "#",
   },
   {
     img: two,
-    title: "Hospital Website",
+    title: "Eastern Lights Website",
     lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
-    live: "#",
+    live: "https://easternlightz.com/",
     github: "#",
   },
   {
     img: three,
-    title: "Hospital Website",
+    title: "Exquisite Event Planner Website",
     lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
-    live: "#",
+    live: "https://eeventsplanner.com/",
     github: "#",
   },
   {
     img: four,
-    title: "Hospital Website",
+    title: "Hullbridge Slicitors Website",
     lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
     live: "https://www.hullbridgesolicitors.com",
     github: "#",
   },
   {
     img: five,
-    title: "Hospital Website",
+    title: "Paschal Amakiri Youth Website",
     lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
-    live: "#",
+    live: "https://payis.org/",
     github: "#",
   },
   {
     img: six,
-    title: "Hospital Website",
+    title: "Seraphic Home Foundation Website",
     lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
-    live: "#",
+    live: "https://seraphichomesfoundation.org/",
+    github: "#",
+  },
+  {
+    img: seven,
+    title: "Travel Agency Website",
+    lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
+    live: "https://zell-travel-agency.netlify.app/",
+    github: "#",
+  },
+  {
+    img: eight,
+    title: "Real Sound Wave Website",
+    lang: ["React", "Sass", "Node", "Express", "Mongo DB"],
+    live: "https://realsoundwavestudiomusic.com/",
     github: "#",
   },
 ];

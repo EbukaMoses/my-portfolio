@@ -27,6 +27,8 @@ import three from "./images/3.png";
 import four from "./images/4.png";
 import five from "./images/5.png";
 import six from "./images/6.png";
+import seven from "./images/7.png";
+import eight from "./images/8.png";
 
 export {
   Hero,
@@ -58,4 +60,6 @@ export {
   four,
   five,
   six,
+  seven,
+  eight,
 };
