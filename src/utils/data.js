@@ -142,7 +142,7 @@ export const technologies = [
     icon: Wordpress,
   },
   {
-    title: "Core Draw",
+    title: "Corel Draw",
     icon: Core,
   },
   {

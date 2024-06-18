@@ -4,7 +4,7 @@ const Header = ({ title }) => {
   return (
     <div className="header flex justify-between items-center">
       <h1>Ebuka Moses</h1>
-      <h2>FULL-STACK DEVELOPER</h2>
+      <h2>FRONT-END DEVELOPER</h2>
     </div>
   );
 };

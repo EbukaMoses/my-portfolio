@@ -96,7 +96,7 @@ const Portfolio = () => {
                     setActive(true);
                   }}
                 />
-                <NavTab title="Xperience" onClick={() => setView("1")} />
+                <NavTab title="Experience" onClick={() => setView("1")} />
                 <NavTab title="Skills" onClick={() => setView("2")} />
                 <NavTab title="Projects" onClick={() => setView("3")} />
                 <NavTab title="Education" onClick={() => setView("4")} />

@@ -12,7 +12,7 @@ import pic from "./images/pic.jpg";
 import Vscode from "./images/vscode2.png";
 import Php from "./images/php.png";
 import Mysql from "./images/mysql.png";
-import Express from "./images/express2.png";
+import Express from "./images/express.png";
 import Firebase from "./images/firebase.png";
 import Node from "./images/node.png";
 import MongoDB from "./images/mongodb.png";

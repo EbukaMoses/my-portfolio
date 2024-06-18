@@ -45,11 +45,11 @@ body {
 }
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   /* padding: 0.1% 0; */
   /* overflow-x: auto; */
-  border-bottom: 1px solid var(--border-color);
+  /* border-bottom: 1px solid var(--gray); */
   overflow: hidden;
 }
 .nav .navtab {
@@ -232,14 +232,15 @@ button,
   .nav {
     font-size: 8px;
     justify-content: center;
-    gap: 10px;
+    gap: px;
     border-bottom: 0.5px solid var(--border-color);
-
   }
   .nav .navtab {
-    padding: 4% 0.5%;
+    padding: 4% 2.5%;
     text-transform: uppercase;
     font-weight: 600;
+    /* background: var(--gray); */
+    border-right: 1px solid var(--gray);
   }
   .nav .navtab:hover {
     border-bottom: 1.5px solid var(--card);
@@ -297,7 +298,8 @@ button,
     font-weight: 600;
     line-height: 24px;
   }
-  button, .cv {
+  button,
+  .cv {
     padding: 4%;
   }
   .padding {
