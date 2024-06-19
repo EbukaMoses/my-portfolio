@@ -49,7 +49,7 @@ body {
   align-items: center;
   /* padding: 0.1% 0; */
   /* overflow-x: auto; */
-  /* border-bottom: 1px solid var(--gray); */
+  border-bottom: 1px solid var(--gray);
   overflow: hidden;
 }
 .nav .navtab {
@@ -58,20 +58,20 @@ body {
   font-weight: 700;
   cursor: pointer;
   background: transparent;
-  border-bottom: 0px solid var(--card);
+  /* border-bottom: 0px solid var(--gray); */
   transition: background 0.3s;
   -webkit-transition: background 0.3s;
   -moz-transition: background 0.3s;
   -ms-transition: background 0.3s;
   -o-transition: background 0.3s;
 }
-/* .nav .navtab.active {
+.nav .navtab.active {
   background: var(--border-color);
-} */
+}
 .nav .navtab:hover {
   /* border-bottom: 2.5px solid var(--card); */
   /* border-width: 100%; */
-  background: var(--card);
+  background: var(--border-color);
 }
 .nav .navtab span {
   font-size: 12px;

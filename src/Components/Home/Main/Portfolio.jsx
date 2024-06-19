@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -18,7 +18,18 @@ import Header from "./../../Common/Header";
 
 const Portfolio = () => {
   const [view, setView] = useState("0");
-  const [active, setActive] = useState(false);
+  
+  useEffect(() => {
+    const nav = document.querySelector(".nav").querySelectorAll(".navtab");
+    
+    function activeMenu() {
+      nav.forEach((n) => n.classList.remove("active"));
+      this.classList.add("active");
+    }
+    
+    nav.forEach((n) => n.addEventListener("click", activeMenu));
+  },[])
+  
 
   const project = (props) => {
     switch (props) {
@@ -88,14 +99,7 @@ const Portfolio = () => {
           <div className="rightside">
             <div className="rightside-content flex-col  justify-center">
               <div className="nav">
-                <NavTab
-                  title="About"
-                  active={active}
-                  onClick={() => {
-                    setView("0");
-                    setActive(true);
-                  }}
-                />
+                <NavTab title="About" onClick={() => setView("0")} />
                 <NavTab title="Experience" onClick={() => setView("1")} />
                 <NavTab title="Skills" onClick={() => setView("2")} />
                 <NavTab title="Projects" onClick={() => setView("3")} />

@@ -27,12 +27,11 @@ const Projects = () => {
               <div className="title">
                 <h3>{proj.title}</h3>
               </div>
-
-              {/* <div className="technologies flex">
-                {project.lang.map((tech, index) => (
+              <div className="technologies flex items-center">
+                {proj.lang.map((tech, index) => (
                   <span key={index}>{tech}</span>
                 ))}
-              </div> */}
+              </div>
 
               <div className="flex justify- live-btn">
                 <a
