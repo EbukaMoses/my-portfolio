@@ -31,12 +31,13 @@
 .leftside img {
   width: 100%;
   /* filter: grayscale(20); */
+  /* -webkit-filter: grayscale(20); */
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
-  -webkit-filter: grayscale(20);
+
 }
 .name {
   margin: 1rem 0;
