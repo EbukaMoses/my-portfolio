@@ -30,7 +30,7 @@
 }
 .leftside img {
   width: 100%;
-  filter: grayscale(20);
+  /* filter: grayscale(20); */
   border-radius: 50px;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
