@@ -31,7 +31,8 @@ import {
   nine,
   ten,
   eleven,
-  twelve
+  twelve,
+  Thirteen
 } from "../../public/index.js";
 
 export const experience = [
@@ -268,6 +269,13 @@ export const project = [
     title: "Stetho Hotel Website",
     lang: ["React", "Css"],
     live: "https://stetho-hotel.netlify.app/",
+    github: "#",
+  },
+  {
+    img: Thirteen,
+    title: "The Executive 16 Website",
+    lang: ["React", "Css"],
+    live: "https://the-executive16.vercel.app/",
     github: "#",
   },
 ];

@@ -33,6 +33,7 @@ import nine from "./images/9.png";
 import ten from "./images/10.png";
 import  eleven from "./images/11.png";
 import twelve from "./images/12.png";
+import Thirteen from "./images/13.png";
 
 export {
   Hero,
@@ -70,4 +71,5 @@ export {
   ten,
   eleven,
   twelve,
+  Thirteen,
 };
