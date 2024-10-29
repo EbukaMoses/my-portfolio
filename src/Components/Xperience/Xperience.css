@@ -1,9 +1,11 @@
-
 .company {
-  width: 30%;
+  width: 25%;
 }
 .desc {
-  width: 70%;
+  width: 75%;
+}
+.desc h3 {
+  margin-bottom: 5px;
 }
 @media screen and (max-width: 768px) {
   .xperience_card {

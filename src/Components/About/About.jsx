@@ -7,7 +7,18 @@ const About = () => {
       <Heading title="Hey, I am Ebuka Moses 🧑‍💻 " />
       <div className="maincontent">
         <p className="text-justify">
-          I am a dedicated and experienced React frontend developer with years
+          Results-driven Front-End Developer with expertise in crafting dynamic,
+          user-centric web applications. Skilled in React, JavaScript, and CSS,
+          I specialize in building responsive interfaces that offer seamless
+          experiences across devices. My background includes integrating RESTful
+          APIs, managing state with Redux, and employing best practices for
+          performance optimization and security. I’m adept at collaborating in
+          cross-functional teams, translating complex requirements into
+          functional code, and delivering high-quality, maintainable solutions.
+          Passionate about continuous learning and keeping up with emerging
+          frontend trends to drive innovation and add value to every project I
+          undertake.
+          {/* I am a dedicated and experienced React frontend developer with years
           of expertise in building dynamic and responsive web applications. My
           proficiency in consuming APIs and managing state with Redux has
           enabled me to create seamless user experiences and efficient,
@@ -16,7 +27,7 @@ const About = () => {
           My passion for front-end development drives me to stay updated with
           the latest technologies and best practices, ensuring that my skills
           remain sharp and relevant. I am committed to leveraging my experience
-          to contribute effectively to any development team.
+          to contribute effectively to any development team. */}
         </p>
         <br />
         <p className="text-justify">

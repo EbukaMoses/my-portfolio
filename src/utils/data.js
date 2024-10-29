@@ -32,7 +32,7 @@ import {
   ten,
   eleven,
   twelve,
-  Thirteen
+  Thirteen,
 } from "../../public/index.js";
 
 export const experience = [
@@ -40,31 +40,60 @@ export const experience = [
     company: "DOSH SERVICES",
     date: "October 2021 – Present",
     position: "Front-end Developer - Hybrid",
-    desc: "Working with a team on Design Implementation, Responsive Design, Cross-Browser Compatibility, Enhancing the usability and interactivity of web applications, API Integration, Performance Optimization and State Management",
+    desc: [
+      "Integrated RESTful APIs with advanced techniques such as server-side rendering, pagination, and data caching; utilized Redux for efficient management of complex application states.",
+      "Enhanced application functionality by integrating third-party APIs, demonstrating adaptability and proficiency in connecting external services.",
+      "Employed Node.js for server-side scripting to optimize application performance and manage concurrent requests effectively.",
+      "Designed and implemented secure user authentication and authorization processes, prioritizing the protection and privacy of user data.",
+      "Performed comprehensive testing and debugging, swiftly resolving issues to maintain high-quality, bug-free applications.",
+    ],
   },
   {
     company: "ROOAH, LLC – USA",
-    date: "April 2021 – August 2021",
-    position: "Web Developer/Support Engineer - Remote",
-    desc: "Providing Technical Support, Issue Diagnosis and Troubleshooting, Monitoring and Maintenance, Bug Fixes and Updates, User Support and Training and Content Management to the companies clients",
+    date: "April 2021 – August 2021 ",
+    position: "Software/Support Engineer - Remote ",
+    desc: [
+      "Oversee both front-end and back-end website development processes to ensure seamless functionality and user experience.",
+      "Efficiently troubleshoot and resolve website-related issues for clients and colleagues, maintaining high standards of technical support.",
+      "Work collaboratively to update website templates, incorporating content, images, and videos as needed to reflect the latest information.",
+      "Implement customized website modifications based on client specifications, ensuring each update aligns with client requirements.",
+      "Monitor the customer service portal regularly for new change requests and tickets, responding promptly to client needs and ensuring timely resolutions.",
+      "Address and manage client-submitted change requests and troubleshooting tickets through the customer service portal with diligence and precision.",
+      "Coordinate with business development associates to ensure all Rooah! Websites are current and accurately represent the brand.",
+      "Tailor open-source software solutions to meet specific client requirements, enhancing flexibility and functionality.",
+      "Perform detailed debugging to resolve performance-related issues, ensuring websites run smoothly and efficiently.",
+      "Continuously debug and resolve website performance issues, maintaining an optimal user experience for all visitors. ",
+    ],
   },
   {
     company: "CORNELLI AND MOSH CONSULT",
     date: "Dec 2020 – May 2021",
-    position: "WordPress Developer - Full-time",
-    desc: "Meeting with clients to discuss website design and function. Designing and building the website front-end. Creating the website architecture. Designing and managing the website back-end including database and server integration. Generating WordPress themes and plugins. Conducting website performance tests. Troubleshooting content issues. Conducting WordPress training with the client and Monitoring the performance of the live website.",
+    position: "Front-end Developer  - Full-time",
+    desc: [
+      "Developing the Front-end infrastructure for the cloud-based collaborative communication platform with React.js, JavaScript, etc., aimed at competing with industry leaders.",
+      "Building reusable components in collaboration with UI/UX designers based on established design systems for cross-platform consistency and improving development efficiency ",
+      "Working closely with backend developers to integrate APIs and ensure seamless functionality.",
+      "Utilized micro services architecture to build and deploy a micro-frontend web application, implementing state management and UI logic using React hooks",
+      "Created comprehensive documentation for components using React Storybook as a style guide, ensuring consistency and maintainability.",
+      "Translated designs and wireframes into high-quality code, building reusable components using React.js and styled components.",
+      "Integrated frontend with REST APIs using Swagger documentation, ensuring seamless communication between frontend and backend systems.",
+    ],
   },
-  {
-    company: "KIDZMALL STORE",
-    date: "Dec 2019 – Nov 2020",
-    position: "Web Administrator - Full-time",
-    desc: "Manage and maintain the organization's website, ensuring that it is up-to-date, properly functioning, and visually appealing. Regularly monitor website to ensure optimal speed, responsiveness, and overall user experience. Collaborate with web developers and designers to implement new features as needed. Optimize website for search engines  and drive traffic to the website. Monitor website analytics and generate reports to track key performance indicators, such as traffic, conversion rates, and user engagement. Ensure website security by implementing appropriate measures, such as SSL certificates, firewalls, and regular vulnerability scanning. Troubleshoot and resolve website issues, such as broken links, error messages, and usability problems. ",
-  },
+  // {
+  //   company: "KIDZMALL STORE",
+  //   date: "Dec 2019 – Nov 2020",
+  //   position: "Web Administrator - Full-time",
+  //   desc: "Manage and maintain the organization's website, ensuring that it is up-to-date, properly functioning, and visually appealing. Regularly monitor website to ensure optimal speed, responsiveness, and overall user experience. Collaborate with web developers and designers to implement new features as needed. Optimize website for search engines  and drive traffic to the website. Monitor website analytics and generate reports to track key performance indicators, such as traffic, conversion rates, and user engagement. Ensure website security by implementing appropriate measures, such as SSL certificates, firewalls, and regular vulnerability scanning. Troubleshoot and resolve website issues, such as broken links, error messages, and usability problems. ",
+  // },
   {
     company: "WAAW FOUNDATION",
-    date: "July 2019 – Dec 2019",
+    date: "July 2019 – Nov 2020",
     position: "Frontend Developer Intern Full-time",
-    desc: "Collaborate with designers, optimize applications, develop features, and maintain brand consistency for user-facing interfaces. Key Skills: Proficiency in HTML, CSS, JavaScript, problem-solving, teamwork, and using browser developer tools are essential for front-end developers.",
+    desc: [
+      "Implemented responsive design for 2 web applications, increasing cross-browser compatibility.",
+      "Played a vital role in the UI development of the company dashboard, making it mobile-friendly and increasing brand web application traffic by 30%.",
+      "Participated in debugging and code reviews to enhance code quality and adherence to coding",
+    ],
   },
 ];
 
@@ -158,23 +187,29 @@ export const technologies = [
 
 export const education = [
   {
-    uni: "Unizik, Awka",
+    uni: "Inspire vocational Academies, Lagos",
+    date: "2020",
+    course: "Diploma In Computer Programming",
+    desc: "",
+  },
+  {
+    uni: "Nnamdi Azikiwe University, Awka",
     date: "2016",
     course: "BSc Business Adminstration",
     desc: "",
   },
   {
-    uni: "Unizik, Awka",
+    uni: "Nnamdi Azikiwe University, Awka",
     date: "2013",
     course: "Diploma in Business Adminstration",
     desc: "",
   },
-  {
-    uni: "St. Charles’ Ankpa",
-    date: "2010",
-    course: "Senior School Certificate Examination",
-    desc: "",
-  },
+  // {
+  //   uni: "St. Charles’ Ankpa",
+  //   date: "2010",
+  //   course: "Senior School Certificate Examination",
+  //   desc: "",
+  // },
 ];
 
 export const post = [

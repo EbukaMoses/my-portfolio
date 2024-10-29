@@ -16,7 +16,12 @@ const Xperience = () => {
             </div>
             <div className="desc flex-col">
               <h3 className="h3">{exp.position}</h3>
-              <p>{exp.desc}</p>
+              {/* <p>{exp.desc}</p> */}
+              <ul>
+                {exp.desc.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}
