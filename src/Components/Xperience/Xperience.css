@@ -1,7 +1,10 @@
-.company {
+.xperience .card {
+  gap: 10px;
+}
+.xperience .company {
   width: 25%;
 }
-.desc {
+.xperience .desc {
   width: 75%;
 }
 .desc h3 {
@@ -12,10 +15,10 @@
     flex-direction: column;
     gap: 20px;
   }
-  .company {
+  .xperience .company {
     width: 100% !important;
   }
-  .desc {
+  .xperience .desc {
     width: 100% !important;
   }
 }

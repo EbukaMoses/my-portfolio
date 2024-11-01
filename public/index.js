@@ -14,7 +14,7 @@ import Php from "./images/php.png";
 import Mysql from "./images/mysql.png";
 import Express from "./images/express.png";
 import Firebase from "./images/firebase.png";
-import Node from "./images/node.png";
+import Node from "./images/node1.png";
 import MongoDB from "./images/mongodb.png";
 import Redux from "./images/redux.png";
 import Typescript from "./images/typescript.png";
@@ -26,14 +26,20 @@ import two from "./images/2.png";
 import three from "./images/3.png";
 import four from "./images/4.png";
 import five from "./images/5.png";
-import six from "./images/6.png";
+import six from "./images/6b.png";
 import seven from "./images/7.png";
 import eight from "./images/8.png";
 import nine from "./images/9.png";
 import ten from "./images/10.png";
-import  eleven from "./images/11.png";
+import eleven from "./images/11.png";
 import twelve from "./images/12.png";
-import Thirteen from "./images/13.png";
+import Thirteen from "./images/13b.png";
+import Fourteen from "./images/14.png";
+import Fifteen from "./images/15.png";
+import sixteen from "./images/16.png";
+import seventeen from "./images/17.png";
+import eighteen from "./images/18.png";
+
 
 export {
   Hero,
@@ -72,4 +78,9 @@ export {
   eleven,
   twelve,
   Thirteen,
+  Fourteen,
+  Fifteen,
+  sixteen,
+  seventeen,
+  eighteen,
 };

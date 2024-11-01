@@ -22,6 +22,10 @@ const Xperience = () => {
                   <li key={index}>{item}</li>
                 ))}
               </ul>
+
+              {/* {exp.desc.map((item, index) => (
+                  <p key={index}>{item}</p>
+                ))} */}
             </div>
           </div>
         ))}

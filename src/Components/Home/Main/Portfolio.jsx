@@ -18,18 +18,17 @@ import Header from "./../../Common/Header";
 
 const Portfolio = () => {
   const [view, setView] = useState("0");
-  
+
   useEffect(() => {
     const nav = document.querySelector(".nav").querySelectorAll(".navtab");
-    
+
     function activeMenu() {
       nav.forEach((n) => n.classList.remove("active"));
       this.classList.add("active");
     }
-    
+
     nav.forEach((n) => n.addEventListener("click", activeMenu));
-  },[])
-  
+  }, []);
 
   const project = (props) => {
     switch (props) {
