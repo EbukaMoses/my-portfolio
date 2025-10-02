@@ -1,13 +1,161 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/images/pic.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ebuka Moses</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Under Maintenance - Portfolio</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            background: '#001E28',   // Deep blue-green
+                            foreground: '#e8eaed',   // Light text
+                            muted: '#6b7280',        // Muted gray
+                            accent: '#010A0F',       // Dark accent
+                            border: '#00141E'        // Border blue
+                        },
+                        fontFamily: {
+                            sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+                            serif: ['Georgia', 'Cambria', 'Times New Roman', 'serif']
+                        }
+                    }
+                }
+            }
+        </script>
+        <style>
+            body {
+                background-color: #001E28;
+                color: #e8eaed;
+            }
+
+            .bg-gradient-to-r {
+                background-image: linear-gradient(to right, #010A0F, #00141E 80%);
+            }
+
+            .text-accent {
+                color: #010A0F !important;
+            }
+
+            .bg-accent {
+                background-color: #010A0F !important;
+            }
+
+            .text-border {
+                color: #00141E !important;
+            }
+        </style>
+    </head>
+    <body class="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl w-full">
+            <main class="text-center space-y-8">
+                <!-- Main Heading  -->
+                <div class="space-y-4 mt-10">
+                    <h1
+                        class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-balance text-white text-transparent">
+                        Under Maintenance
+                    </h1>
+                    <p class="text-2xl sm:text-3xl font-medium">
+                        I'm <span class="">Ebuka Moses</span> — Software Developer
+                    </p>
+                    <p class="text-xl sm:text-2xl text-muted font-light">
+                        Currently updating my portfolio
+                    </p>
+                </div>
+
+                <!-- Description -->
+                <div class="max-w-2xl mx-auto space-y-6">
+                    <p class="text-base sm:text-lg leading-relaxed text-foreground/80">
+                        I'm currently working on something new and exciting. My portfolio is being redesigned to better
+                        showcase my work and provide an improved experience.
+                    </p>
+                    <p class="text-base sm:text-lg leading-relaxed text-foreground/80">
+                        Thank you for your patience. The site will be back online soon.
+                    </p>
+                    <!-- <div class="pt-2">
+                        <a href="mailto:okoyemoses83@gmail.com"
+                            class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-accent text-white font-medium shadow-lg shadow-accent/20 hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 transition-transform transition-shadow duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60">
+                            <span>Email me</span>
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M2 6.75A2.75 2.75 0 0 1 4.75 4h14.5A2.75 2.75 0 0 1 22 6.75v10.5A2.75 2.75 0 0 1 19.25 20H4.75A2.75 2.75 0 0 1 2 17.25V6.75Zm2.33-.75a.75.75 0 0 0-.68 1.06l.06.1 7.25 5.44c.6.45 1.41.47 2.03.09l.12-.09 7.25-5.44a.75.75 0 0 0-.83-1.21l-.1.06-7.24 5.44a.75.75 0 0 1-.76.04l-.09-.06L4.33 6.16a.75.75 0 0 0-.45-.16Z" />
+                            </svg>
+                        </a>
+                    </div> -->
+                </div>
+
+                <!-- Contact Information -->
+                <div class="pt-6 space-y-6">
+                    <p class="text-sm uppercase tracking-wider text-muted">
+                        Get in touch
+                    </p>
+                    <div class="flex flex-col items-center justify-center gap-2">
+                        <a href="mailto:okoyemoses83@gmail.com"
+                            class="text-foreground hover:text-white transition-colors duration-200 text-lg">
+                            okoyemoses83@gmail.com
+                        </a>
+                        <!-- <span class="hidden sm:inline text-border">|</span> -->
+                        <a href="tel:+2347038689968"
+                            class="text-foreground hover:text-white transition-colors duration-200 text-lg">
+                            +(234)7038689968
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Social Links  -->
+                <div class="pt-8">
+                    <div class="flex items-center justify-center gap-6">
+                        <!-- GitHub -->
+                        <a href="https://github.com/ebukamoses" target="_blank" rel="noopener noreferrer"
+                            class="text-muted hover:text-foreground transition-colors duration-200 transform hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 rounded"
+                            aria-label="GitHub">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-7 h-7">
+                                <path
+                                    d="M12 2C6.477 2 2 6.484 2 12.012c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.605-3.37-1.342-3.37-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.833.091-.646.35-1.088.636-1.34-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.254-.446-1.274.098-2.656 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.382.202 2.402.1 2.656.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .268.18.579.688.481C19.138 20.188 22 16.437 22 12.012 22 6.484 17.523 2 12 2z" />
+                            </svg>
+                        </a>
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/ebuka-moses/" target="_blank" rel="noopener noreferrer"
+                            class="text-muted hover:text-foreground transition-colors duration-200 transform hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 rounded"
+                            aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-7 h-7">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.838-1.563 3.036 0 3.6 2.001 3.6 4.601v5.595z" />
+                            </svg>
+                        </a>
+                        <!-- X (Twitter) -->
+                        <a href="https://twitter.com/bukan_moses" target="_blank" rel="noopener noreferrer"
+                            class="text-muted hover:text-foreground transition-colors duration-200 transform hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 rounded"
+                            aria-label="X">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-7 h-7">
+                                <path
+                                    d="M17.53 3.5h3.97l-8.47 9.66 9.97 11.34h-7.97l-6.36-7.24-7.28 7.24h-3.99l9.05-10.11-9.57-10.89h8.09l5.7 6.48zm-2.77 17.13h2.21l-6.04-6.87-2.53 2.8 6.36 7.24zm-7.36-7.24l-6.36-7.24h-2.21l6.04 6.87 2.53-2.8zm7.36-7.24l6.36 7.24h2.21l-6.04-6.87-2.53 2.8z" />
+                            </svg>
+                        </a>
+                        <!-- Instagram -->
+                        <a href="https://instagram.com/bukan_moses" target="_blank" rel="noopener noreferrer"
+                            class="text-muted hover:text-foreground transition-colors duration-200 transform hover:scale-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60 rounded"
+                            aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-7 h-7">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.975.974 1.246 2.242 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.975-2.242 1.246-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.975-.974-1.246-2.242-1.308-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.974-.975 2.242-1.246 3.608-1.308 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.012-4.947.072-1.276.06-2.687.334-3.678 1.325-.991.991-1.265 2.402-1.325 3.678-.06 1.28-.072 1.688-.072 4.947s.012 3.667.072 4.947c.06 1.276.334 2.687 1.325 3.678.991.991 2.402 1.265 3.678 1.325 1.28.06 1.688.072 4.947.072s3.667-.012 4.947-.072c1.276-.06 2.687-.334 3.678-1.325.991-.991 1.265-2.402 1.325-3.678.06-1.28.072-1.688.072-4.947s-.012-3.667-.072-4.947c-.06-1.276-.334-2.687-1.325-3.678-.991-.991-2.402-1.265-3.678-1.325-1.28-.06-1.688-.072-4.947-.072zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Footer  -->
+                <div class="pt-2 pb-6">
+                    <p class="text-sm text-muted">
+                        © 2025 Ebuka Moses All rights reserved
+                    </p>
+                </div>
+            </main>
+        </div>
+    </body>
 </html>
