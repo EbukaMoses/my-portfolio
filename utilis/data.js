@@ -38,7 +38,7 @@ import {
   sixteen,
   seventeen,
   eighteen,
-} from "@/public/index.js";
+} from "./index.js";
 
 export const experience = [
   {
