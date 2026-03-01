@@ -21,7 +21,7 @@ const Header = () => {
             <div className="flex items-center gap-10">
                 <Image
                     className="rounded-full object-cover"
-                    src="/EbukaMoses.jpg"
+                    src="/images/EbukaMoses.jpg"
                     alt="Profile picture"
                     width={150}
                     height={100}

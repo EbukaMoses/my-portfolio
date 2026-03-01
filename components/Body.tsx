@@ -12,7 +12,7 @@ export default function ScrollableTabs() {
     "Projects",
     "Skills",
     "Education",
-    "Certificates",
+    "Certification",
   ];
 
   const [activeTab, setActiveTab] = useState(0);

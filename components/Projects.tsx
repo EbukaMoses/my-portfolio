@@ -54,7 +54,9 @@ const Projects = () => {
                         >
                             <div className="relative overflow-hidden h-48 bg-gray-50 shadow-lg">
                                 <Image
-                                    src={proj.img}
+                                    // src='https://image.thum.io/get/https://dezennmart.vercel.app/'
+                                    src={`https://image.thum.io/get/${selectedProject?.live}`}
+                                    // src={proj.img}
                                     alt={proj.title}
                                     fill
                                     className="object-cover transition-transform duration-300 group-hover:scale-105"
