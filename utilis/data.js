@@ -114,88 +114,88 @@ export const experience = [
 export const technologies = [
   {
     title: "Html",
-    icon: Html,
+    icon: "/images/html.png",
   },
   {
     title: "Css",
-    icon: Css,
+    icon: "/images/css.png",
   },
   {
     title: "Bootstrap",
-    icon: Bootstrap,
+    icon: "/images/bootstrap.png",
   },
   {
     title: "Sass",
-    icon: Sass,
+    icon: "/images/sass.png",
   },
   {
     title: "Tailwind",
-    icon: Tailwind,
+    icon: "/images/tailwind.png",
   },
   {
     title: "Js",
-    icon: Js,
+    icon: "/images/js.png",
   },
   {
     title: "Typescript",
-    icon: Typescript,
+    icon: "/images/typescript.png",
   },
   {
     title: "React",
-    icon: ReactIcon,
+    icon: "/images/react.png",
   },
   {
     title: "Redux",
-    icon: Redux,
+    icon: "/images/redux.png",
   },
   {
     title: "Express",
-    icon: Express,
+    icon: "/images/express.png",
   },
   {
     title: "Node",
-    icon: Node,
+    icon: "/images/node.png",
   },
   {
     title: "MongoDB",
-    icon: MongoDB,
+    icon: "/images/mongodb.png",
   },
 
   {
     title: "Php",
-    icon: Php,
+    icon: "/images/php.png",
   },
   {
     title: "Mysql",
-    icon: Mysql,
+    icon: "/images/mysql.png",
   },
   {
     title: "Firebase",
-    icon: Firebase,
+    icon: "/images/firebase.png",
   },
   {
     title: "Git",
-    icon: Git,
+    icon: "/images/git.png",
   },
   {
     title: "Github",
-    icon: Github,
+    icon: "/images/github.png",
   },
   {
     title: "Vscode",
-    icon: Vscode,
+    icon: "/images/vscode.png",
   },
   {
     title: "Wordpress",
-    icon: Wordpress,
+    icon: "/images/wordpress.png",
   },
   {
     title: "Corel Draw",
-    icon: Core,
+    icon:  "/images/coredraw.png",
   },
   {
     title: "Photoshop",
-    icon: Photoshop,
+    icon: "/images/photoshop.png",
   },
 ];
 
