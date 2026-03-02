@@ -4,19 +4,20 @@ import { FaEye, FaLink, FaTimes } from 'react-icons/fa';
 import Image, { StaticImageData } from 'next/image';
 
 interface Project {
-    img: StaticImageData;
+    // img: StaticImageData;
     title: string;
     lang: string[];
     live: string;
     github: string;
+    url: string;
 }
 
 const Projects = () => {
     const [selectedProject, setSelectedProject] = useState<Project | null>(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
-    const openModal = (proj: Project) => {
-        setSelectedProject(proj);
+    const openModal = (project: Project) => {
+        setSelectedProject(project);
         setIsModalOpen(true);
         document.body.style.overflow = 'hidden';
     };
@@ -55,7 +56,7 @@ const Projects = () => {
                             <div className="relative overflow-hidden h-48 bg-gray-50 shadow-lg">
                                 <Image
                                     // src='https://image.thum.io/get/https://dezennmart.vercel.app/'
-                                    src={`https://image.thum.io/get/${selectedProject?.live}`}
+                                    src={proj?.url}
                                     // src={proj.img}
                                     alt={proj.title}
                                     fill
@@ -144,8 +145,8 @@ const Projects = () => {
                         <div className="p-6 overflow-y-auto max-h-[calc(90vh-80px)]">
                             <div className="relative w-full h-64 md:h-96 mb-6 bg-[#a1a1a1] rounded-lg overflow-hidden">
                                 <Image
-                                    src={selectedProject.img}
-                                    alt={selectedProject.title}
+                                    src={selectedProject.url}
+                                    alt={selectedProject?.title}
                                     fill
                                     className="w-full object-cover"
                                 />

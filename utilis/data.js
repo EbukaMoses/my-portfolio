@@ -242,6 +242,7 @@ export const project = [
     lang: ["Nextjs", "Tailwind Css"],
     live: "https://giv3-theta.vercel.app/",
     github: "#",
+    url: "https://image.thum.io/get/https://giv3-theta.vercel.app/",
   },
   {
     // img: one,
@@ -249,6 +250,7 @@ export const project = [
     lang: ["Nextjs", "Tailwind Css", "Rust", "MongoDB"],
     live: "https://onyebftech.com/",
     github: "https://github.com/EbukaMoses/utaba_denmark",
+    url: "https://image.thum.io/get/https://onyebftech.com/",
   },
   {
     // img: two,
@@ -256,6 +258,7 @@ export const project = [
     lang: ["React", "Tailwind Css"],
     live: "https://lapo-bank-gold.vercel.app/",
     github: "https://github.com/EbukaMoses/Lapo-Bank-Dashboard",
+    url: "https://image.thum.io/get/https://lapo-bank-gold.vercel.app/",
   },
   {
     // img: two,
@@ -263,6 +266,7 @@ export const project = [
     lang: ["Nextjs", "Tailwind Css", "Solidity"],
     live: "https://defi-chat-rouge.vercel.app/",
     github: "#",
+    url: "https://image.thum.io/get/https://defi-chat-rouge.vercel.app/",
   },
 
   {
@@ -271,13 +275,15 @@ export const project = [
     lang: ["React", "Tailwind Css", "Solidity"],
     live: "https://nft-market-place-seven-sage.vercel.app/",
     github: "https://github.com/EbukaMoses/NFT-MARKET-PLACE",
+    url: "https://image.thum.io/get/https://nft-market-place-seven-sage.vercel.app/",
   },
   {
     // img: four,
     title: "Hullbridge Slicitors Website",
-    lang: ["WordPress"],
+    lang: ["Html", "Css"],
     live: "https://www.hullbridgesolicitors.com",
     github: "#",
+    url: "https://image.thum.io/get/https://www.hullbridgesolicitors.com",
   },
   // {
   //   img: five,
@@ -292,6 +298,7 @@ export const project = [
     lang: ["Html", "Css", "Php", "Mysql"],
     live: "https://seraphichomesfoundation.netlify.app/",
     github: "https://github.com/EbukaMoses/Seraphic-Homes-Foundation",
+    url: "https://image.thum.io/get/https://seraphichomesfoundation.netlify.app/",
   },
   {
     // img: seven,
@@ -299,13 +306,15 @@ export const project = [
     lang: ["React", "Tailwind"],
     live: "https://zell-travel-agency.netlify.app/",
     github: "https://github.com/EbukaMoses/Travel-Agency-website",
+    url: "https://image.thum.io/get/https://zell-travel-agency.netlify.app/",
   },
   {
     // img: eight,
-    title: "Real Sound Wave Website",
+    title: "Asacastle",
     lang: ["WordPress"],
-    live: "https://realsoundwavestudiomusic.com/",
+    live: "https://asacastle.com/",
     github: "#",
+    url: "https://image.thum.io/get/https://asacastle.com/",
   },
   {
     // img: nine,
@@ -313,6 +322,7 @@ export const project = [
     lang: ["React", "css"],
     live: "https://a-movies-app.netlify.app/",
     github: "https://github.com/EbukaMoses/Movie-website",
+    url: "https://image.thum.io/get/https://a-movies-app.netlify.app/",
   },
   {
     // img: ten,
@@ -320,6 +330,7 @@ export const project = [
     lang: ["React", "Css"],
     live: "https://queenestate.netlify.app/",
     github: "https://github.com/EbukaMoses/Real-Estate",
+    url: "https://image.thum.io/get/https://queenestate.netlify.app/",
   },
   {
     // img: eleven,
@@ -327,6 +338,7 @@ export const project = [
     lang: ["React", "Css"],
     live: "https://alexabentayga.netlify.app/",
     github: "https://github.com/EbukaMoses/Alexabentayga",
+    url: "https://image.thum.io/get/https://alexabentayga.netlify.app/",
   },
   {
     // img: twelve,
@@ -334,6 +346,7 @@ export const project = [
     lang: ["React", "Css"],
     live: "https://stetho-hotel.netlify.app/",
     github: "https://github.com/EbukaMoses/Hotel-Website",
+    url: "https://image.thum.io/get/https://stetho-hotel.netlify.app/",
   },
   {
     // img: Thirteen,
@@ -341,6 +354,7 @@ export const project = [
     lang: ["React", "Css"],
     live: "https://the-executive16.vercel.app/",
     github: "https://github.com/EbukaMoses/TheExecutive16",
+    url: "https://image.thum.io/get/https://the-executive16.vercel.app/",
   },
   {
     // img: Fourteen,
@@ -348,6 +362,7 @@ export const project = [
     lang: ["React", "Css"],
     live: "https://lilian-amaka-okocha.netlify.app/",
     github: "https://github.com/EbukaMoses/Amaka-Okocha",
+    url: "https://image.thum.io/get/https://lilian-amaka-okocha.netlify.app/",
   },
   {
     // img: Fifteen,
@@ -355,6 +370,7 @@ export const project = [
     lang: ["React", "Css"],
     live: "https://ebukamoses-easybank.netlify.app/",
     github: "https://github.com/EbukaMoses/Amaka-Okocha",
+    url: "https://image.thum.io/get/https://ebukamoses-easybank.netlify.app/",
   },
   {
     // img: sixteen,
@@ -362,19 +378,22 @@ export const project = [
     lang: ["React", "Css"],
     live: "https://linked-in-clone-ebus.netlify.app",
     github: "https://github.com/EbukaMoses/Linkedin-Clone",
+    url: "https://image.thum.io/get/https://linked-in-clone-ebus.netlify.app",
   },
-  {
-    // img: seventeen,
-    title: "Chat GPT Clone",
-    lang: ["React", "Css"],
-    live: "https://junkiesweb2.netlify.app/",
-    github: "https://github.com/EbukaMoses/JunkiesWEB2",
-  },
-  {
-    // img: eighteen,
-    title: "V-Streaming App",
-    lang: ["React", "Css"],
-    live: "https://v-streamingapp.netlify.app/",
-    github: "https://github.com/EbukaMoses/V-Streaming-App",
-  },
+  // {
+  //   // img: seventeen,
+  //   title: "Chat GPT Clone",
+  //   lang: ["React", "Css"],
+  //   live: "https://junkiesweb2.netlify.app/",
+  //   github: "https://github.com/EbukaMoses/JunkiesWEB2",
+  //   url: "https://image.thum.io/get/https://junkiesweb2.netlify.app/",
+  // },
+  // {
+  //   // img: eighteen,
+  //   title: "V-Streaming App",
+  //   lang: ["React", "Css"],
+  //   live: "https://v-streamingapp.netlify.app/",
+  //   github: "https://github.com/EbukaMoses/V-Streaming-App",
+  //   url: "https://image.thum.io/get/https://v-streamingapp.netlify.app/",
+  // },
 ];
