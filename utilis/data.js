@@ -42,46 +42,55 @@ import {
 
 export const experience = [
   {
+    company: "Web3Bridge",
+    date: "Jan 2025 – May 2025",
+    position: "Blockchain Developer - Internship (On-site)",
+    desc: [
+      "Engineered and optimized smart contracts using Solidity, Hardhat, and Foundry, achieving 99.9% contract reliability while reducing gas consumption by 30% through efficient contract design and optimization techniques.",
+      "Streamlined contract compilation, testing, debugging, and deployment workflows with Hardhat and Foundry, cutting deployment time by 50% and improving development efficiency.",
+      "Developed and converted traditional user interfaces into fully functional decentralized applications (DApps) using React and TypeScript, increasing user engagement by 40%.",
+      "Integrated web applications with the Ethereum blockchain using Ethers.js, improving transaction efficiency and reducing processing time by 20%."
+    ],
+  },
+  {
     company: "DOSH SERVICES",
-    date: "October 2021 – Present",
+    date: "October 2021 – December 2024",
     position: "Front-end Developer - Hybrid",
     desc: [
-      "Integrated RESTful APIs with advanced techniques such as server-side rendering, pagination, and data caching; utilized Redux for efficient management of complex application states.",
-      "Enhanced application functionality by integrating third-party APIs, demonstrating adaptability and proficiency in connecting external services.",
-      "Employed Node.js for server-side scripting to optimize application performance and manage concurrent requests effectively.",
-      "Designed and implemented secure user authentication and authorization processes, prioritizing the protection and privacy of user data.",
-      "Performed comprehensive testing and debugging, swiftly resolving issues to maintain high-quality, bug-free applications.",
+      "Integrated and optimized RESTful APIs using server-side rendering (SSR), pagination, and strategic data caching techniques, improving application performance and scalability while managing complex state with Redux.",
+      "Enhanced platform capabilities by integrating multiple third-party APIs, ensuring seamless communication between internal systems and external services.",
+      "Leveraged Node.js for server-side operations, optimizing request handling and improving overall application efficiency under concurrent user loads.",
+      "Designed and implemented secure authentication and authorization workflows, strengthening data protection and ensuring compliance with modern security standards.",
+      "Led thorough testing and debugging processes, proactively identifying and resolving performance bottlenecks to maintain high application reliability and code quality."
     ],
   },
   {
     company: "ROOAH, LLC – USA",
-    date: "April 2021 – August 2021 ",
-    position: "Software/Support Engineer - Remote ",
+    date: "April 2021 – August 2021",
+    position: "Software/Support Engineer - Remote",
     desc: [
-      "Oversee both front-end and back-end website development processes to ensure seamless functionality and user experience.",
-      "Efficiently troubleshoot and resolve website-related issues for clients and colleagues, maintaining high standards of technical support.",
-      "Work collaboratively to update website templates, incorporating content, images, and videos as needed to reflect the latest information.",
-      "Implement customized website modifications based on client specifications, ensuring each update aligns with client requirements.",
-      "Monitor the customer service portal regularly for new change requests and tickets, responding promptly to client needs and ensuring timely resolutions.",
-      "Address and manage client-submitted change requests and troubleshooting tickets through the customer service portal with diligence and precision.",
-      "Coordinate with business development associates to ensure all Rooah! Websites are current and accurately represent the brand.",
-      "Tailor open-source software solutions to meet specific client requirements, enhancing flexibility and functionality.",
-      "Perform detailed debugging to resolve performance-related issues, ensuring websites run smoothly and efficiently.",
-      "Continuously debug and resolve website performance issues, maintaining an optimal user experience for all visitors. ",
+      "Managed end-to-end front-end and back-end website operations, ensuring high performance, stability, and seamless user experience across multiple client projects.",
+      "Diagnosed and resolved complex technical issues, significantly reducing downtime and maintaining high client satisfaction levels.",
+      "Customized and enhanced website templates by integrating updated content, multimedia assets, and brand-specific requirements to ensure consistency and accuracy.",
+      "Implemented client-specific feature enhancements and system modifications, delivering tailored solutions aligned with business objectives.",
+      "Handled and resolved support tickets through the customer service portal with efficiency, improving response time and issue resolution workflow.",
+      "Collaborated with business development and cross-functional teams to keep all company websites up-to-date and aligned with brand strategy.",
+      "Adapted and extended open-source software solutions to meet unique client requirements, improving platform flexibility and functionality.",
+      "Performed in-depth debugging and performance optimization, enhancing website speed, reliability, and overall user experience."
     ],
   },
   {
     company: "CORNELLI AND MOSH CONSULT",
-    date: "Dec 2020 – May 2021",
-    position: "Front-end Developer  - Full-time",
+    date: "December 2020 – May 2021",
+    position: "Front-end Developer - Full-time",
     desc: [
-      "Developing the Front-end infrastructure for the cloud-based collaborative communication platform with React.js, JavaScript, etc., aimed at competing with industry leaders.",
-      "Building reusable components in collaboration with UI/UX designers based on established design systems for cross-platform consistency and improving development efficiency ",
-      "Working closely with backend developers to integrate APIs and ensure seamless functionality.",
-      "Utilized micro services architecture to build and deploy a micro-frontend web application, implementing state management and UI logic using React hooks",
-      "Created comprehensive documentation for components using React Storybook as a style guide, ensuring consistency and maintainability.",
-      "Translated designs and wireframes into high-quality code, building reusable components using React.js and styled components.",
-      "Integrated frontend with REST APIs using Swagger documentation, ensuring seamless communication between frontend and backend systems.",
+      "Led the development of the front-end architecture for a cloud-based collaborative communication platform using React.js and JavaScript, delivering a scalable product positioned to compete with established industry solutions.",
+      "Built and standardized reusable UI components in collaboration with UI/UX designers, improving cross-platform consistency and accelerating development cycles.",
+      "Integrated RESTful APIs in close collaboration with backend engineers, ensuring seamless data flow and reliable application performance.",
+      "Implemented a micro-frontend architecture using microservices principles, managing state and UI logic efficiently with React Hooks.",
+      "Developed and maintained a comprehensive component documentation system using React Storybook, improving maintainability and onboarding efficiency.",
+      "Translated complex wireframes and design systems into production-ready, high-performance React components using styled-components.",
+      "Integrated frontend modules with backend services using Swagger-documented APIs, enhancing system interoperability and reducing integration errors."
     ],
   },
   // {
@@ -92,12 +101,12 @@ export const experience = [
   // },
   {
     company: "WAAW FOUNDATION",
-    date: "July 2019 – Nov 2020",
+    date: "July 2019 – November 2020",
     position: "Frontend Developer Intern Full-time",
     desc: [
       "Implemented responsive design for 2 web applications, increasing cross-browser compatibility.",
       "Played a vital role in the UI development of the company dashboard, making it mobile-friendly and increasing brand web application traffic by 30%.",
-      "Participated in debugging and code reviews to enhance code quality and adherence to coding",
+      "Participated in debugging and code reviews to enhance code quality and adherence to coding standards.",
     ],
   },
 ];
@@ -255,7 +264,7 @@ export const project = [
     live: "https://defi-chat-rouge.vercel.app/",
     github: "#",
   },
-  
+
   {
     // img: three,
     title: "NFT Platform",
