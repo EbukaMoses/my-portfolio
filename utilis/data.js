@@ -111,93 +111,93 @@ export const experience = [
   },
 ];
 
-export const technologies = [
-  {
-    title: "Html",
-    icon: "/images/html.png",
-  },
-  {
-    title: "Css",
-    icon: "/images/css.png",
-  },
-  {
-    title: "Bootstrap",
-    icon: "/images/bootstrap.png",
-  },
-  {
-    title: "Sass",
-    icon: "/images/sass.png",
-  },
-  {
-    title: "Tailwind",
-    icon: "/images/tailwind.png",
-  },
-  {
-    title: "Js",
-    icon: "/images/js.png",
-  },
-  {
-    title: "Typescript",
-    icon: "/images/typescript.png",
-  },
-  {
-    title: "React",
-    icon: "/images/react.png",
-  },
-  {
-    title: "Redux",
-    icon: "/images/redux.png",
-  },
-  {
-    title: "Express",
-    icon: "/images/express.png",
-  },
-  {
-    title: "Node",
-    icon: "/images/node.png",
-  },
-  {
-    title: "MongoDB",
-    icon: "/images/mongodb.png",
-  },
+// export const technologies = [
+//   {
+//     title: "Html",
+//     icon: "/images/html.png",
+//   },
+//   {
+//     title: "Css",
+//     icon: "/images/css.png",
+//   },
+//   {
+//     title: "Bootstrap",
+//     icon: "/images/bootstrap.png",
+//   },
+//   {
+//     title: "Sass",
+//     icon: "/images/sass.png",
+//   },
+//   {
+//     title: "Tailwind",
+//     icon: "/images/tailwind.png",
+//   },
+//   {
+//     title: "Js",
+//     icon: "/images/js.png",
+//   },
+//   {
+//     title: "Typescript",
+//     icon: "/images/typescript.png",
+//   },
+//   {
+//     title: "React",
+//     icon: "/images/react.png",
+//   },
+//   {
+//     title: "Redux",
+//     icon: "/images/redux.png",
+//   },
+//   {
+//     title: "Express",
+//     icon: "/images/express.png",
+//   },
+//   {
+//     title: "Node",
+//     icon: "/images/node.png",
+//   },
+//   {
+//     title: "MongoDB",
+//     icon: "/images/mongodb.png",
+//   },
 
-  {
-    title: "Php",
-    icon: "/images/php.png",
-  },
-  {
-    title: "Mysql",
-    icon: "/images/mysql.png",
-  },
-  {
-    title: "Firebase",
-    icon: "/images/firebase.png",
-  },
-  {
-    title: "Git",
-    icon: "/images/git.png",
-  },
-  {
-    title: "Github",
-    icon: "/images/github.png",
-  },
-  {
-    title: "Vscode",
-    icon: "/images/vscode.png",
-  },
-  {
-    title: "Wordpress",
-    icon: "/images/wordpress.png",
-  },
-  {
-    title: "Corel Draw",
-    icon:  "/images/coredraw.png",
-  },
-  {
-    title: "Photoshop",
-    icon: "/images/photoshop.png",
-  },
-];
+//   {
+//     title: "Php",
+//     icon: "/images/php.png",
+//   },
+//   {
+//     title: "Mysql",
+//     icon: "/images/mysql.png",
+//   },
+//   {
+//     title: "Firebase",
+//     icon: "/images/firebase.png",
+//   },
+//   {
+//     title: "Git",
+//     icon: "/images/git.png",
+//   },
+//   {
+//     title: "Github",
+//     icon: "/images/github.png",
+//   },
+//   {
+//     title: "Vscode",
+//     icon: "/images/vscode.png",
+//   },
+//   {
+//     title: "Wordpress",
+//     icon: "/images/wordpress.png",
+//   },
+//   {
+//     title: "Corel Draw",
+//     icon:  "/images/coredraw.png",
+//   },
+//   {
+//     title: "Photoshop",
+//     icon: "/images/photoshop.png",
+//   },
+// ];
 
 export const education = [
   {
@@ -253,6 +253,30 @@ export const project = [
     url: "https://image.thum.io/get/https://onyebftech.com/",
   },
   {
+    // img: one,
+    title: "Iyacodi Foundation",
+    lang: ["WordPress", "Elementor"],
+    live: "https://iyacodi.org/",
+    github: "#",
+    url: "https://image.thum.io/get/https://iyacodi.org/",
+  },
+  {
+    // img: one,
+    title: "Platinum Plus",
+    lang: ["WordPress", "Elementor"],
+    live: "https://platinumpcl.com/",
+    github: "#",
+    url: "https://image.thum.io/get/https://platinumpcl.com/",
+  },
+  {
+    // img: one,
+    title: "Zenny Gold",
+    lang: ["WordPress", "Elementor"],
+    live: "https://zennygold.com/",
+    github: "#",
+    url: "https://image.thum.io/get/https://zennygold.com/",
+  },
+  {
     // img: two,
     title: "Lapo Bank Dasboard",
     lang: ["React", "Tailwind Css"],
@@ -300,38 +324,38 @@ export const project = [
     github: "https://github.com/EbukaMoses/Seraphic-Homes-Foundation",
     url: "https://image.thum.io/get/https://seraphichomesfoundation.netlify.app/",
   },
-  {
-    // img: seven,
-    title: "Travel Agency Website",
-    lang: ["React", "Tailwind"],
-    live: "https://zell-travel-agency.netlify.app/",
-    github: "https://github.com/EbukaMoses/Travel-Agency-website",
-    url: "https://image.thum.io/get/https://zell-travel-agency.netlify.app/",
-  },
+  // {
+  //   // img: seven,
+  //   title: "Travel Agency Website",
+  //   lang: ["React", "Tailwind"],
+  //   live: "https://zell-travel-agency.netlify.app/",
+  //   github: "https://github.com/EbukaMoses/Travel-Agency-website",
+  //   url: "https://image.thum.io/get/https://zell-travel-agency.netlify.app/",
+  // },
   {
     // img: eight,
     title: "Asacastle",
-    lang: ["WordPress"],
+    lang: ["WordPress", "Elementor"],
     live: "https://asacastle.com/",
     github: "#",
     url: "https://image.thum.io/get/https://asacastle.com/",
   },
-  {
-    // img: nine,
-    title: "Movie Website",
-    lang: ["React", "css"],
-    live: "https://a-movies-app.netlify.app/",
-    github: "https://github.com/EbukaMoses/Movie-website",
-    url: "https://image.thum.io/get/https://a-movies-app.netlify.app/",
-  },
-  {
-    // img: ten,
-    title: "Real Estate Website",
-    lang: ["React", "Css"],
-    live: "https://queenestate.netlify.app/",
-    github: "https://github.com/EbukaMoses/Real-Estate",
-    url: "https://image.thum.io/get/https://queenestate.netlify.app/",
-  },
+  // {
+  //   // img: nine,
+  //   title: "Movie Website",
+  //   lang: ["React", "css"],
+  //   live: "https://a-movies-app.netlify.app/",
+  //   github: "https://github.com/EbukaMoses/Movie-website",
+  //   url: "https://image.thum.io/get/https://a-movies-app.netlify.app/",
+  // },
+  // {
+  //   // img: ten,
+  //   title: "Real Estate Website",
+  //   lang: ["React", "Css"],
+  //   live: "https://queenestate.netlify.app/",
+  //   github: "https://github.com/EbukaMoses/Real-Estate",
+  //   url: "https://image.thum.io/get/https://queenestate.netlify.app/",
+  // },
   {
     // img: eleven,
     title: "Alexbentayga Website",
@@ -340,14 +364,14 @@ export const project = [
     github: "https://github.com/EbukaMoses/Alexabentayga",
     url: "https://image.thum.io/get/https://alexabentayga.netlify.app/",
   },
-  {
-    // img: twelve,
-    title: "Stetho Hotel Website",
-    lang: ["React", "Css"],
-    live: "https://stetho-hotel.netlify.app/",
-    github: "https://github.com/EbukaMoses/Hotel-Website",
-    url: "https://image.thum.io/get/https://stetho-hotel.netlify.app/",
-  },
+  // {
+  //   // img: twelve,
+  //   title: "Stetho Hotel Website",
+  //   lang: ["React", "Css"],
+  //   live: "https://stetho-hotel.netlify.app/",
+  //   github: "https://github.com/EbukaMoses/Hotel-Website",
+  //   url: "https://image.thum.io/get/https://stetho-hotel.netlify.app/",
+  // },
   {
     // img: Thirteen,
     title: "The Executive 16 Website",
@@ -364,14 +388,14 @@ export const project = [
     github: "https://github.com/EbukaMoses/Amaka-Okocha",
     url: "https://image.thum.io/get/https://lilian-amaka-okocha.netlify.app/",
   },
-  {
-    // img: Fifteen,
-    title: "Easy Bank Website",
-    lang: ["React", "Css"],
-    live: "https://ebukamoses-easybank.netlify.app/",
-    github: "https://github.com/EbukaMoses/Amaka-Okocha",
-    url: "https://image.thum.io/get/https://ebukamoses-easybank.netlify.app/",
-  },
+  // {
+  //   // img: Fifteen,
+  //   title: "Easy Bank Website",
+  //   lang: ["React", "Css"],
+  //   live: "https://ebukamoses-easybank.netlify.app/",
+  //   github: "https://github.com/EbukaMoses/Amaka-Okocha",
+  //   url: "https://image.thum.io/get/https://ebukamoses-easybank.netlify.app/",
+  // },
   {
     // img: sixteen,
     title: "LinkedIn Clone",

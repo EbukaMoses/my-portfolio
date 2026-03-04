@@ -16,7 +16,7 @@ const Experience = () => {
       {/* <p>{exp.desc}</p> */}
       <ul>
         {exp.desc.map((item, index) => (
-          <li key={index} className="text-base inline-flex gap-2 mb-1"><IoMdCheckmarkCircleOutline className="text-green-500" />{item}</li>
+          <li key={index} className="text-base font-Roboto font-normal inline-flex gap-2 mb-1"><IoMdCheckmarkCircleOutline className="text-green-500" />{item}</li>
         ))}
       </ul>
       {/* {exp.desc.map((item, index) => (

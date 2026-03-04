@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { GrLocation } from "react-icons/gr";
-import { IoLogoMedium, IoLogoTiktok, IoMailUnreadOutline } from "react-icons/io5";
+import { IoLogoMedium, IoLogoTiktok } from "react-icons/io5";
 import { VscVerifiedFilled } from "react-icons/vsc";
 import { MdEmail, MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 import { useState } from "react";
@@ -22,7 +22,7 @@ const Header = () => {
                 <Image
                     className="rounded-full object-cover"
                     src="/images/EbukaMoses.jpg"
-                    alt="Profile picture"
+                    alt="Ebuka Moses Okoye | Full-Stack Developer | Blockchain Engineer | WordPress Specialist | Graphic Designer"
                     width={150}
                     height={100}
                 // priority
