@@ -16,9 +16,9 @@ import { SiFarcaster, SiWhatsapp } from "react-icons/si";
 const Header = () => {
     const [showSocials, setShowSocials] = useState(false);
     return (
-        <div className="flex flex-col items-center gap-10 rounded-xl border-[1px] border-[#001E28] p-10">
+        <div className="flex flex-col items-center gap-10 rounded-xl border-[1px] border-[#001E28] lg:p-10 p-2">
 
-            <div className="flex items-center gap-10">
+            <div className="flex lg:flex-row md:flex-row flex-col items-center justify-center gap-10">
                 <Image
                     className="rounded-full object-cover"
                     src="/images/EbukaMoses.jpg"
@@ -28,23 +28,17 @@ const Header = () => {
                 // priority
                 />
 
-                <div className="flex flex-col">
+                <div className="flex flex-col lg:items-start items-center">
                     <h1 className="text-4xl font-bold text-[#C3C2C2]">Ebuka Moses<sup><VscVerifiedFilled className="text-[#A1A1A1] inline text-sm" /></sup></h1>
-                    <p className="text-[#A1A1A1] mt-2 w-[80%]">Full-Stack Developer • Blockchain Engineer • WordPress Specialist • Graphic Designer | React • Next.js • Solidity • Cairo • Rust | Crafting Digital Experiences</p>
+                    <p className="text-[#A1A1A1] mt-2 w-[80%] lg:text-left text-center">Full-Stack Developer • Blockchain Engineer • WordPress Specialist • Graphic Designer | React • Next.js • Solidity • Cairo • Rust | Crafting Digital Experiences</p>
 
-                    <div className="flex mt-6 w-[70%] justify-between">
-                        <div className="flex gap-2">
-                            <span className="text-sm font-semibold">
-                                {/* <Link href="" target="_blank">
-                      <IoMailUnreadOutline className="text-[#A1A1A1] inline" /> <span>Mail Me</span>
-                    </Link> */}
-                            </span>
-                            <span className="text-sm font-semibold text-[#C3C2C2]">
-                                <GrLocation className="inline" /> <span className="">Lagos, Nigeria.</span>
-                            </span>
-                        </div>
+                    <div className="flex lg:flex-row md:flex-row flex-col mt-6 w-[70%] lg:items-start items-center justify-between lg:gap-0 gap-5">
 
-                        <div className="flex gap-4">
+                        <span className="text-sm font-semibold text-[#C3C2C2]">
+                            <GrLocation className="inline" /> <span className="">Lagos, Nigeria.</span>
+                        </span>
+
+                        <div className="flex flex-row flex-wrap gap-4">
                             <Link href="mailto:okoyemoses83@gmail.com" target="_blank" title="Email">
                                 <MdEmail className="text-[#A1A1A1] inline text-2xl" />
                             </Link>
@@ -89,7 +83,7 @@ const Header = () => {
 
             <span className="bg-[#001E28] h-[0.8px] w-full" />
 
-            <span className="flex items-center gap-1 text-[#a1a1a1] text-xs p-3 -my-5 hover:cursor-pointer hover:text-white hover:bg-[#232323] rounded-md" onClick={() => setShowSocials(!showSocials)}>{showSocials ? "Hide" : "Show"} Skills {showSocials ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}</span>
+            <span className="flex items-center gap-1 text-[#a1a1a1] text-xs p-3 -my-5 hover:cursor-pointer hover:text-white hover:bg-[#232323] rounded-md" onClick={() => setShowSocials(!showSocials)}>{showSocials ? "Hide" : "Show"} Bio {showSocials ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown />}</span>
             {showSocials && (
                 <span className="flex flex-col gap-4">
                     <p>

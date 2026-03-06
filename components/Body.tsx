@@ -18,7 +18,7 @@ export default function ScrollableTabs() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className="w-full flex flex-col gap-10 rounded-xl border-[1px] border-[#001E28] p-10 ">
+    <div className="w-full flex flex-col gap-10 rounded-xl border-[1px] border-[#001E28] lg:p-10 p-4">
 
       {/* Scrollable Tab Container */}
       <div className="overflow-x-auto scrollbar-hide">

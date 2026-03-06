@@ -104,7 +104,7 @@ export const technologies = [
 const Skills = () => {
   return (
     <div>
-      <div className="grid grid-cols-15 gap-5 mx-auto">
+      <div className="grid lg:grid-cols-15 md:grid-cols-10 grid-cols-5 gap-5 mx-auto">
         {technologies.map((tech) => (
           <span key={tech.title} className="flex flex-col items-center justify-center">
             <Image src={tech.icon} alt={tech.title} width={50} height={50} />
