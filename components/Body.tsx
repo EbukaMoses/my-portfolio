@@ -5,6 +5,7 @@ import Experience from "./Experience";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Education from "./Education";
+import Graphics from "./Graphics";
 
 export default function ScrollableTabs() {
   const tabs = [
@@ -12,6 +13,7 @@ export default function ScrollableTabs() {
     "Projects",
     "Skills",
     "Education",
+    "Graphics",
     "Certification",
   ];
 
@@ -46,7 +48,7 @@ export default function ScrollableTabs() {
       {/* Tab Content */}
       <div>
         <h2 className="text-xl font-semibold">
-            {activeTab === 0 ? <Experience /> : activeTab === 1 ? <Projects /> : activeTab === 2 ? <Skills /> : activeTab === 3 ? <Education /> : tabs[activeTab]}
+            {activeTab === 0 ? <Experience /> : activeTab === 1 ? <Projects /> : activeTab === 2 ? <Skills /> : activeTab === 3 ? <Education /> : activeTab === 4 ? <Graphics /> : tabs[activeTab]}
             {}
         </h2>
       </div>
