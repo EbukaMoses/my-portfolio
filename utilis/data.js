@@ -44,7 +44,7 @@ export const experience = [
   {
     company: "Web3Bridge",
     date: "Jan 2025 – May 2025",
-    position: "Blockchain Developer - Internship (On-site)",
+    position: "Blockchain Developer - Onsite",
     desc: [
       "Engineered and optimized smart contracts using Solidity, Hardhat, and Foundry, achieving 99.9% contract reliability while reducing gas consumption by 30% through efficient contract design and optimization techniques.",
       "Streamlined contract compilation, testing, debugging, and deployment workflows with Hardhat and Foundry, cutting deployment time by 50% and improving development efficiency.",
@@ -71,26 +71,26 @@ export const experience = [
     desc: [
       "Managed end-to-end front-end and back-end website operations, ensuring high performance, stability, and seamless user experience across multiple client projects.",
       "Diagnosed and resolved complex technical issues, significantly reducing downtime and maintaining high client satisfaction levels.",
-      "Customized and enhanced website templates by integrating updated content, multimedia assets, and brand-specific requirements to ensure consistency and accuracy.",
+      "Optimized websites for performance, SEO, and security, improving page load speed and search engine visibility",
       "Implemented client-specific feature enhancements and system modifications, delivering tailored solutions aligned with business objectives.",
       "Handled and resolved support tickets through the customer service portal with efficiency, improving response time and issue resolution workflow.",
-      "Collaborated with business development and cross-functional teams to keep all company websites up-to-date and aligned with brand strategy.",
-      "Adapted and extended open-source software solutions to meet unique client requirements, improving platform flexibility and functionality.",
+      "Performed regular website updates, backups, and security monitoring to maintain stability and data protection",
+      "Built and customized WordPress themes and plugins to meet specific client requirements and improve website functionality.",
       "Performed in-depth debugging and performance optimization, enhancing website speed, reliability, and overall user experience."
     ],
   },
   {
     company: "CORNELLI AND MOSH CONSULT",
     date: "December 2020 – May 2021",
-    position: "Front-end Developer - Full-time",
+    position: "Front-end Developer - Onsite",
     desc: [
       "Led the development of the front-end architecture for a cloud-based collaborative communication platform using React.js and JavaScript, delivering a scalable product positioned to compete with established industry solutions.",
       "Built and standardized reusable UI components in collaboration with UI/UX designers, improving cross-platform consistency and accelerating development cycles.",
       "Integrated RESTful APIs in close collaboration with backend engineers, ensuring seamless data flow and reliable application performance.",
       "Implemented a micro-frontend architecture using microservices principles, managing state and UI logic efficiently with React Hooks.",
       "Developed and maintained a comprehensive component documentation system using React Storybook, improving maintainability and onboarding efficiency.",
-      "Translated complex wireframes and design systems into production-ready, high-performance React components using styled-components.",
-      "Integrated frontend modules with backend services using Swagger-documented APIs, enhancing system interoperability and reducing integration errors."
+      "Troubleshot and resolved website bugs, plugin conflicts, and compatibility issues to ensure smooth performance.",
+      "Converted UI/UX designs (Figma, Adobe XD, or PSD) into fully functional WordPress websites"
     ],
   },
   // {
@@ -102,7 +102,7 @@ export const experience = [
   {
     company: "WAAW FOUNDATION",
     date: "July 2019 – November 2020",
-    position: "Frontend Developer Intern Full-time",
+    position: "Frontend Developer - Onsite",
     desc: [
       "Implemented responsive design for 2 web applications, increasing cross-browser compatibility.",
       "Played a vital role in the UI development of the company dashboard, making it mobile-friendly and increasing brand web application traffic by 30%.",
