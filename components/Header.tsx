@@ -51,21 +51,21 @@ const Header = () => {
                             <Link href="https://www.instagram.com/bukan_moses" target="_blank" title="Instagram">
                                 <BsInstagram className="text-[#A1A1A1] inline text-2xl" />
                             </Link>
-                            <Link href="https://www.tiktok.com/@ebukamoses" target="_blank" title="TikTok">
+                            {/* <Link href="https://www.tiktok.com/@ebukamoses" target="_blank" title="TikTok">
                                 <IoLogoTiktok className="text-[#A1A1A1] inline text-2xl" />
-                            </Link>
-                            <Link href="https://www.snapchat.com/add/ebukamoses" target="_blank" title="Snapchat">
+                            </Link> */}
+                            {/* <Link href="https://www.snapchat.com/add/ebukamoses" target="_blank" title="Snapchat">
                                 <RiSnapchatFill className="text-[#A1A1A1] inline text-2xl" />
-                            </Link>
-                            <Link href="https://bsky.app/profile/ebukamoses.bsky.social" target="_blank" title="Bluesky">
+                            </Link> */}
+                            {/* <Link href="https://bsky.app/profile/ebukamoses.bsky.social" target="_blank" title="Bluesky">
                                 <RiBlueskyFill className="text-[#A1A1A1] inline text-2xl" />
-                            </Link>
-                            <Link href="" target="_blank" title="Farcaster">
+                            </Link> */}
+                            {/* <Link href="" target="_blank" title="Farcaster">
                                 <SiFarcaster className="text-[#A1A1A1] inline text-2xl" />
-                            </Link>
-                            <Link href="https://wa.me/2347038689968" target="_blank" title="WhatsApp">
+                            </Link> */}
+                            {/* <Link href="https://wa.me/2347038689968" target="_blank" title="WhatsApp">
                                 <SiWhatsapp className="text-[#A1A1A1] inline text-2xl" />
-                            </Link>
+                            </Link> */}
                             <Link href="https://t.me/ebukamoses" target="_blank" title="Telegram">
                                 <RiTelegram2Fill className="text-[#A1A1A1] inline text-2xl" />
                             </Link>

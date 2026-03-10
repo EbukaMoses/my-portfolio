@@ -1,7 +1,7 @@
 import { project } from '@/utilis/data'
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect, Suspense } from 'react'
 import { FaEye, FaLink, FaTimes } from 'react-icons/fa';
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 
 interface Project {
     // img: StaticImageData;
@@ -54,14 +54,19 @@ const Projects = () => {
                             key={proj.title}
                         >
                             <div className="relative overflow-hidden h-48 bg-gray-50 shadow-lg">
-                                <Image
-                                    // src='https://image.thum.io/get/https://dezennmart.vercel.app/'
-                                    src={proj?.url}
-                                    // src={proj.img}
-                                    alt={proj.title}
-                                    fill
-                                    className="object-cover transition-transform duration-300 group-hover:scale-105"
-                                />
+
+                                <div>
+                                    <Suspense fallback={<div className="w-full h-full bg-gray-200 animate-pulse">Loading</div>}>
+                                        <Image
+                                            // src='https://image.thum.io/get/https://dezennmart.vercel.app/'
+                                            src={proj?.url}
+                                            alt={proj.title}
+                                            fill
+                                            className="object-cover transition-transform duration-300 group-hover:scale-105"
+                                        />
+                                    </Suspense>
+                                </div>
+                                
                                 <button
                                     onClick={() => openModal(proj)}
                                     className="absolute inset-0 bg-black/80 cursor-pointer bg-opacity-30 hover:bg-opacity-80 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100"
