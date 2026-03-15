@@ -42,6 +42,23 @@ import {
 
 export const experience = [
   {
+    company: "OnyeBF Technology",
+    date: "June 2025 – Present",
+    position: "Software Developer",
+    desc: [
+      "Works on both client and server application logic.",
+      "Builds server-side applications using technologies such as Node.js and Express.js.",
+      "Creates and manages APIs to enable communication between systems.",
+      "Works with databases including MongoDB and MySQL.",
+      "Ensures applications are responsive, scalable, and reliable.",
+      "Implements CI/CD pipelines for testing and deployment.",
+      "Uses cloud platforms like AWS to host and scale applications.",
+      "Applies DevOps practices with Docker and Kubernetes.",
+      "Troubleshoots and resolves issues across the stack.",
+      "Collaborates effectively with designers, engineers, and product managers."
+    ],
+  },
+  {
     company: "Web3Bridge",
     date: "Jan 2025 – May 2025",
     position: "Blockchain Developer - Onsite",
@@ -67,7 +84,7 @@ export const experience = [
   {
     company: "ROOAH, LLC – USA",
     date: "April 2021 – August 2021",
-    position: "Software/Support Engineer - Remote",
+    position: "WordPress Developer/Support Engineer - Remote",
     desc: [
       "Managed end-to-end front-end and back-end website operations, ensuring high performance, stability, and seamless user experience across multiple client projects.",
       "Diagnosed and resolved complex technical issues, significantly reducing downtime and maintaining high client satisfaction levels.",
@@ -90,7 +107,7 @@ export const experience = [
       "Implemented a micro-frontend architecture using microservices principles, managing state and UI logic efficiently with React Hooks.",
       "Developed and maintained a comprehensive component documentation system using React Storybook, improving maintainability and onboarding efficiency.",
       "Troubleshot and resolved website bugs, plugin conflicts, and compatibility issues to ensure smooth performance.",
-      "Converted UI/UX designs (Figma, Adobe XD, or PSD) into fully functional WordPress websites"
+      "Converted UI/UX designs into fully functional WordPress websites"
     ],
   },
   // {
@@ -104,7 +121,7 @@ export const experience = [
     date: "July 2019 – November 2020",
     position: "Frontend Developer - Onsite",
     desc: [
-      "Implemented responsive design for 2 web applications, increasing cross-browser compatibility.",
+      "Implemented responsive design for website, increasing cross-browser compatibility.",
       "Played a vital role in the UI development of the company dashboard, making it mobile-friendly and increasing brand web application traffic by 30%.",
       "Participated in debugging and code reviews to enhance code quality and adherence to coding standards.",
     ],
