@@ -59,7 +59,7 @@ export const experience = [
     ],
   },
   {
-    company: "Web3Bridge",
+    company: "Web3Bridge Africa",
     date: "Jan 2025 – May 2025",
     position: "Blockchain Developer - Onsite",
     desc: [
