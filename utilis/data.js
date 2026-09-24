@@ -72,7 +72,7 @@ export const experience = [
   {
     company: "DOSH SERVICES",
     date: "October 2021 – December 2024",
-    position: "Front-end Developer - Hybrid",
+    position: "Full-Stack Developer - Hybrid",
     desc: [
       "Integrated and optimized RESTful APIs using server-side rendering (SSR), pagination, and strategic data caching techniques, improving application performance and scalability while managing complex state with Redux.",
       "Enhanced platform capabilities by integrating multiple third-party APIs, ensuring seamless communication between internal systems and external services.",
